@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 import Link from 'next/link';
 
+
 import { AppConfig } from '../utils/AppConfig';
 
 type IMainProps = {
@@ -31,19 +32,18 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/about/">
+              <Link href="/bio/">
                 <a className="text-gray-700 border-none hover:text-gray-900">
-                  About
+                  Bio
                 </a>
               </Link>
             </li>
             <li className="mr-6">
-              <a
-                className="text-gray-700 border-none hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
-              >
-                GitHub
-              </a>
+              <Link href="/stage-skills/">
+                <a className="text-gray-700 border-none hover:text-gray-900">
+                  Stage Skills Workshop
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -56,7 +56,7 @@ const Main = (props: IMainProps) => (
         <span role="img" aria-label="Love">
           ♥
         </span>{' '}
-        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
+        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru and Netlify</a>
         {/*
          * PLEASE READ THIS SECTION
          * We'll really appreciate if you could have a link to our website
