@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 import Image from 'next/image';
