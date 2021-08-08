@@ -6,7 +6,7 @@
       "error",
       {
         "singleQuote": true
-      },
+      }
     ]
   },
   "overrides": [
