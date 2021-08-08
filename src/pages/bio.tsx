@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Link from 'next/link';
 
 import Image from 'next/image';
@@ -15,7 +16,6 @@ const Bio = () => (
     <p>
 
       <Link href='https://www.instagram.com/mcdwayne_real/' >Instagram </Link>
-      {" "}
       <br></br>
       <Link href='https://twitter.com/McDwayne' >Twitter </Link>
       </p>
