@@ -1,7 +1,14 @@
-import { Meta } from '../layout/Meta';
-import { Main } from '../templates/Main';
 import Link from 'next/link';
+
 import Image from 'next/image';
+
+import { Meta } from '../layout/Meta';
+
+import { Main } from '../templates/Main';
+
+
+
+
 const Bio = () => (
   <Main meta={<Meta title="Dwayne\'s Bio" description="Dwayne McDaniel\'s Improv Bio" />}>
     
